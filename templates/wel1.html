@@ -1,0 +1,29 @@
+<h1>result pages</h1>
+<h1>your text</h1>
+{{msg }}
+<h1>this text contain.{{length}} words</h1>
+
+<hr/>
+<b> all words count----</b>
+
+{% for a,b in abc.items %}
+{{a}} = {{b}}
+
+{% endfor %}
+<hr/>
+
+<ol type='1'>
+{% for key, value in abc.items %}
+<li>{{key}}: {{value}}</li>
+{% endfor %}
+
+
+
+</ol>
+<hr/>
+<b>all words count</b>
+<ol type='1'></ol>
+{% for key, value in cba %}
+<li> {{key}}: {{value}}   </li>
+
+{% endfor %}
